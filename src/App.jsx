@@ -129,6 +129,52 @@ function App () {
           </div>
         </div>
 
+        {/** Card */}
+        <div className='break-inside rounded-xl mb-4 p-6 text-sm bg-[#1e1e1e] text-[#949494]'>
+          <div className='flex items-starte justify-between'>
+            <div className='space-y-1'>
+              <h1 className='text-base'>Best change</h1>
+              <h2 className='text-xl font-bold text-white'>Basic payment</h2>
+            </div>
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1} stroke='currentColor' width='38' height='38' className='flex-none'>
+              <path d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
+            </svg>
+          </div>
+          <ul className='flex items-start flex-col space-y-2 mt-4'>
+            <li className='flex items-start space-x-2'>
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' width='18' height='18' className='flex-none'>
+                <path d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
+              </svg>
+              <span>lorem ipsun merfis actuan</span>
+            </li>
+            <li className='flex items-start space-x-2'>
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' width='18' height='18' className='flex-none'>
+                <path d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
+              </svg>
+              <span>Ut enim ad minima veniam</span>
+            </li>
+            <li className='flex items-start space-x-2'>
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' width='18' height='18' className='flex-none'>
+                <path d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
+              </svg>
+              <span>Quis autem vel eum</span>
+            </li>
+          </ul>
+          <div className='w-full border-t-2 border-dashed my-5 border-[#3a3a3a]' />
+          <div className='flex items-center justify-between'>
+            <button className='flex items-center uppercase text-xs text-white'>
+              View more
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1.5} stroke='currentColor' width='18' height='18' className='ml-2'>
+                <path strokeLinecap='round' strokeLinejoin='round' d='M19.5 8.25l-7.5 7.5-7.5-7.5' />
+              </svg>
+            </button>
+            <h5>
+              <span className='text-xl font-bold text-white'>€23.80</span>
+              <span> /month</span>
+            </h5>
+          </div>
+        </div>
+
       </div>
     </div>
   )
