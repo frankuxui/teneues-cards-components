@@ -88,7 +88,46 @@ function App () {
       {/** container cards */}
       <div className='box-border m-auto max-w-[80rem] 3xl:max-w-[120rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4 2xl:columns-4 3xl:columns-6'>
 
-        hola
+        {/** Card */}
+        <div className='break-inside rounded-xl mb-4 p-6 text-sm bg-[#48e8cc] text-black'>
+          <div className='flex items-starte justify-between'>
+            <div className='space-y-1'>
+              <h1 className='text-base text-[#128d78]'>Best change</h1>
+              <h2 className='text-xl font-bold'>Basic payment</h2>
+            </div>
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={1} stroke='currentColor' width='38' height='38' className='flex-none'>
+              <path d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
+            </svg>
+          </div>
+          <ul className='flex items-start flex-col space-y-2 mt-4'>
+            <li className='flex items-start space-x-2'>
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' width='18' height='18' className='flex-none'>
+                <path d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
+              </svg>
+              <span>lorem ipsun merfis actuan</span>
+            </li>
+            <li className='flex items-start space-x-2'>
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' width='18' height='18' className='flex-none'>
+                <path d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
+              </svg>
+              <span>Ut enim ad minima veniam</span>
+            </li>
+            <li className='flex items-start space-x-2'>
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' width='18' height='18' className='flex-none'>
+                <path d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
+              </svg>
+              <span>Quis autem vel eum</span>
+            </li>
+          </ul>
+          <div className='w-full border-t-2 border-dashed my-5 border-[#36d2b8]' />
+          <div className='flex items-center justify-between'>
+            <span>View more</span>
+            <h5>
+              <span className='text-xl font-bold'>€10.99</span>
+              <span> /month</span>
+            </h5>
+          </div>
+        </div>
 
       </div>
     </div>
