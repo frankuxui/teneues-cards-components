@@ -210,6 +210,58 @@ function App () {
           </button>
         </div>
 
+        {/** Card */}
+        <div className='break-inside rounded-xl space-y-4 mb-4 text-sm p-6 bg-white dark:bg-[#1e1e1e] dark:text-white'>
+          <div className='flex items-start justify-between'>
+            <div className='flex flex-col'>
+              <h1 className='text-lg font-bold'>About Meeting</h1>
+              <p>September 12:45 - 18:30</p>
+            </div>
+            <button type='button' className='w-10 h-10 flex items-center justify-center rounded-full transition-all hover:bg-slate-50 dark:hover:bg-[#333]'>
+              <svg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+                <circle cx='12' cy='12' r='3' /><path d='M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z' />
+              </svg>
+            </button>
+          </div>
+          <p>Minim dolor in amet nulla laboris enim dolore consequat proident.</p>
+          <div className='flex flex-row items-center justify-between space-x-2'>
+            <div className='col-start-2 row-start-1 row-end-3'>
+              <dt className='sr-only'>Users</dt>
+              <dd className='flex justify-start -space-x-1.5'>
+                <a href='#' className='inline-block -m-1'>
+                  <img
+                    className='w-9 h-9 rounded-full bg-slate-100 ring-2 ring-white dark:ring-[#1e1e1e]'
+                    src='https://randomuser.me/api/portraits/women/46.jpg'
+                    alt='avatar'
+                  />
+                </a>
+                <a href='#' className='inline-block -m-1'>
+                  <img
+                    className='w-9 h-9 rounded-full bg-slate-100 ring-2 ring-white dark:ring-[#1e1e1e]'
+                    src='https://randomuser.me/api/portraits/men/45.jpg'
+                    alt='avatar'
+                  />
+                </a>
+                <div className='inline-flex items-center justify-center -m-1 font-medium rounded-full w-10 h-10 ring-2 ring-white dark:ring-[#1e1e1e] bg-[#eeff00] dark:text-black'>
+                  +5
+                </div>
+              </dd>
+            </div>
+            <div className='flex flex-row items-center space-x-1'>
+              <button type='button' className='w-10 h-10 flex items-center justify-center rounded-full border-2 border-black dark:border-white'>
+                <svg width='20' height='20' viewBox='0 0 24 24'>
+                  <path fill='currentColor' d='M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z' />
+                </svg>
+              </button>
+              <button type='button' className='w-10 h-10 flex items-center justify-center rounded-full bg-[#eeff00] dark:text-black'>
+                <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+                  <path d='M7 17l9.2-9.2M17 17V7H7' />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
@@ -219,5 +271,5 @@ export default App
 
 //
 // {/** card */}
-// <div className='break-inside rounded-xl mb-4 p-6 bg-white dark:bg-slate-800 dark:text-white'>card</div>
+// <div className='break-inside rounded-xl mb-4 text-sm p-6 bg-white dark:bg-[#1e1e1e] dark:text-white'>card</div>
 //
