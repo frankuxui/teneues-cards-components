@@ -344,6 +344,42 @@ function App () {
           </div>
         </div>
 
+        {/** card 7 */}
+        <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm bg-[#ffc5a3] text-black'>
+          <div className='flex justify-between flex-row  items-center p-4 text-sm'>
+            <h2 className='text-base font-bold'>Header</h2>
+            <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
+              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
+              </svg>
+            </button>
+          </div>
+          <div className='p-4 space-y-4'>
+            <div className='flex items-center space-x-4'>
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/46.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='text-base font-bold block'>Ralph Edwards</a>
+                <span>Dog Trainer</span>
+              </div>
+            </div>
+            <div className='space-y-1'>
+              <h4 className='text-xl font-medium'>News</h4>
+              <p>Minim dolor in amet nulla laboris enim dolore consequat proident fugiat culpa eiusmod.</p>
+            </div>
+          </div>
+          <div className='flex p-4 flex-row items-center justify-between'>
+            <div className='flex space-x-1'>
+              <span className='px-3 py-1 rounded-full text-xs font-medium bg-black text-white'>FASHION</span>
+              <span className='px-3 py-1 rounded-full text-xs font-medium bg-black text-white'>TRENDS</span>
+            </div>
+            <button type='button' className='w-9 h-9 flex items-center justify-center rounded-full border-2 border-black dark:border-white'>
+              <svg width='20' height='20' viewBox='0 0 24 24'>
+                <path fill='currentColor' d='M20.71,7.04C20.37,7.38 20.04,7.71 20.03,8.04C20,8.36 20.34,8.69 20.66,9C21.14,9.5 21.61,9.95 21.59,10.44C21.57,10.93 21.06,11.44 20.55,11.94L16.42,16.08L15,14.66L19.25,10.42L18.29,9.46L16.87,10.87L13.12,7.12L16.96,3.29C17.35,2.9 18,2.9 18.37,3.29L20.71,5.63C21.1,6 21.1,6.65 20.71,7.04M3,17.25L12.56,7.68L16.31,11.43L6.75,21H3V17.25Z' />
+              </svg>
+            </button>
+          </div>
+        </div>
+
       </div>
     </div>
   )
