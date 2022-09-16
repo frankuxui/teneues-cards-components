@@ -262,6 +262,21 @@ function App () {
           </div>
         </div>
 
+        {/** card */}
+        <div className='break-inside rounded-xl mb-4 text-sm p-6 bg-[#fbe115] text-black'>
+          <div className='flex items-center justify-between'>
+            <h1 className='font-medium relative inline-block pb-2 text-lg'>
+              Our goals
+              <span className='h-[3px] w-full absolute left-0 bottom-0 bg-black' />
+            </h1>
+            <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+              <path d='M7 17l9.2-9.2M17 17V7H7' />
+            </svg>
+          </div>
+          <h2 className='text-2xl font-bold mt-6 mb-3'>We work for a better future</h2>
+          <p>Minim dolor in amet nulla laboris enim dolore consequat proident.</p>
+        </div>
+
       </div>
     </div>
   )
