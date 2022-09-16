@@ -88,9 +88,9 @@ function App () {
       {/** container cards */}
       <div className='box-border m-auto max-w-[80rem] 3xl:max-w-[120rem] columns-1xs sm:columns-2xs md:columns-2 lg:columns-3 xl:columns-4 2xl:columns-4 3xl:columns-6'>
 
-        {/** Card */}
+        {/** Card 1 */}
         <div className='break-inside rounded-xl mb-4 p-6 text-sm bg-[#48e8cc] text-black'>
-          <div className='flex items-starte justify-between'>
+          <div className='flex items-start justify-between'>
             <div className='space-y-1'>
               <h1 className='text-base text-[#128d78]'>Best change</h1>
               <h2 className='text-xl font-bold'>Basic payment</h2>
@@ -129,7 +129,7 @@ function App () {
           </div>
         </div>
 
-        {/** Card */}
+        {/** Card 2 */}
         <div className='break-inside rounded-xl mb-4 p-6 text-sm bg-[#1e1e1e] text-[#949494]'>
           <div className='flex items-starte justify-between'>
             <div className='space-y-1'>
@@ -175,7 +175,7 @@ function App () {
           </div>
         </div>
 
-        {/** Card */}
+        {/** Card 3 */}
         <div className='flex items-start flex-row justify-between break-inside rounded-xl mb-4 p-6 text-sm bg-white text-black border-2 border-black dark:bg-[#1e1e1e] dark:text-white dark:border-[#b9b9b9]'>
           <span className='mr-6'>
             <svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512' width='26' height='26'>
@@ -210,7 +210,7 @@ function App () {
           </button>
         </div>
 
-        {/** Card */}
+        {/** Card 4 */}
         <div className='break-inside rounded-xl space-y-4 mb-4 text-sm p-6 bg-white dark:bg-[#1e1e1e] dark:text-white'>
           <div className='flex items-start justify-between'>
             <div className='flex flex-col'>
@@ -262,7 +262,7 @@ function App () {
           </div>
         </div>
 
-        {/** card */}
+        {/** card 5 */}
         <div className='break-inside rounded-xl mb-4 text-sm p-6 bg-[#fbe115] text-black'>
           <div className='flex items-center justify-between'>
             <h1 className='font-medium relative inline-block pb-2 text-lg'>
@@ -275,6 +275,73 @@ function App () {
           </div>
           <h2 className='text-2xl font-bold mt-6 mb-3'>We work for a better future</h2>
           <p>Minim dolor in amet nulla laboris enim dolore consequat proident.</p>
+        </div>
+
+        {/** Card 6 */}
+        <div className='break-inside rounded-xl mb-4 p-6 space-y-4 text-sm bg-[#bea3f8] text-black'>
+          <div className='flex items-start justify-between'>
+            <div className='space-y-1'>
+              <h1 className='text-base font-medium text-[#000000]'>Best change</h1>
+              <h2 className='text-xl font-bold'>Best Team designer</h2>
+            </div>
+            <button className='cursor-pointer'>
+              <svg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='#000000' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+                <line x1='3' y1='12' x2='21' y2='12' />
+                <line x1='3' y1='6' x2='21' y2='6' />
+                <line x1='3' y1='18' x2='21' y2='18' />
+              </svg>
+            </button>
+          </div>
+          <div className='flex items-center space-x-2'>
+            <button className='rounded-full px-3 py-1 font-bold text-xs uppercase transition-all border-[1.5px] group border-black bg-transparent hover:bg-black hover:text-white '>
+              Teams
+            </button>
+            <button className='rounded-full px-3 py-1 font-bold text-xs uppercase transition-all border-[1.5px] group border-black bg-transparent hover:bg-black hover:text-white '>
+              Groups
+            </button>
+          </div>
+          <p className='flex items-center font-medium space-x-2'>
+            <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' width='24' height='24' className='flex-none'>
+              <path strokeLinecap='round' strokeLinejoin='round' d='M2.25 18L9 11.25l4.306 4.307a11.95 11.95 0 015.814-5.519l2.74-1.22m0 0l-5.94-2.28m5.94 2.28l-2.28 5.941' />
+            </svg>
+            <span>Upstream project</span>
+          </p>
+          <div className='flex flex-row items-center justify-between space-x-2'>
+            <div className='flex items-center'>
+              <dd className='flex justify-start -space-x-1'>
+                <a href='#' className='inline-block -m-1'>
+                  <img
+                    className='w-8 h-8 rounded-full bg-slate-100 ring-white'
+                    src='https://randomuser.me/api/portraits/women/12.jpg'
+                    alt='avatar'
+                  />
+                </a>
+                <a href='#' className='inline-block -m-1'>
+                  <img
+                    className='w-8 h-8 rounded-full bg-slate-100 ring-white'
+                    src='https://randomuser.me/api/portraits/women/67.jpg'
+                    alt='avatar'
+                  />
+                </a>
+                <a href='#' className='inline-block -m-1'>
+                  <img
+                    className='w-8 h-8 rounded-full bg-slate-100 ring-white'
+                    src='https://randomuser.me/api/portraits/men/12.jpg'
+                    alt='avatar'
+                  />
+                </a>
+                <div className='inline-flex -m-1 items-center justify-center font-medium rounded-full w-8 h-8 bg-black text-white'>
+                  3
+                </div>
+              </dd>
+            </div>
+            <div className='flex flex-row items-center font-medium space-x-1'>
+              <svg xmlns='http://www.w3.org/2000/svg' width='18' height='18' viewBox='0 0 24 24' fill='none' stroke='#000000' strokeWidth='2.5' strokeLinecap='round' strokeLinejoin='round'>
+                <polyline points='20 6 9 17 4 12' />
+              </svg>
+              <span>3 days ago</span>
+            </div>
+          </div>
         </div>
 
       </div>
