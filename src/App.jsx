@@ -517,7 +517,7 @@ function App () {
         </div>
 
         {/** card 12 */}
-        <div className='break-inside rounded-xl mb-4 text-sm p-6 group bg-[#00ffff] text-black'>
+        <div className='break-inside rounded-xl mb-4 text-sm p-6 group bg-[#f5cac3] text-black'>
           <div className='flex items-start justify-between'>
             <div className='flex flex-col space-y-1'>
               <h1 className='uppercase font-medium text-xs'>favorite airline</h1>
@@ -551,6 +551,55 @@ function App () {
                 <path d='M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z' fill='currentColor' />
               </svg>
               <span>43%</span>
+            </div>
+          </div>
+        </div>
+
+        {/** card 14 */}
+        <div className='break-inside relative overflow-hidden flex flex-col justify-between text-sm rounded-xl mb-4'>
+          <div className='p-5 space-y-3 bg-[#e63946] text-[#f1faee]'>
+            <div className='flex items-center justify-between font-medium'>
+              <span className='uppercase text-xs text-[#f1faee]'>upgrade team</span>
+              <span className='text-xs text-[#f1faee]'>#teamsdesigners</span>
+            </div>
+            <div className='flex flex-row items-center space-x-3'>
+              <div className='flex flex-none items-center justify-center w-10 h-10 rounded-full bg-[#f1faee] text-[#1d3557]'>
+                <svg width='20' height='20' viewBox='0 0 24 24'>
+                  <path fill='currentColor' d='M20.71,7.04C20.37,7.38 20.04,7.71 20.03,8.04C20,8.36 20.34,8.69 20.66,9C21.14,9.5 21.61,9.95 21.59,10.44C21.57,10.93 21.06,11.44 20.55,11.94L16.42,16.08L15,14.66L19.25,10.42L18.29,9.46L16.87,10.87L13.12,7.12L16.96,3.29C17.35,2.9 18,2.9 18.37,3.29L20.71,5.63C21.1,6 21.1,6.65 20.71,7.04M3,17.25L12.56,7.68L16.31,11.43L6.75,21H3V17.25Z' />
+                </svg>
+              </div>
+              <span className='text-base font-medium text-white'>Upgrade your team for better performance</span>
+            </div>
+          </div>
+          <div className='p-4 space-y-3 bg-[#f1faee]'>
+            <div> Lorem ipsum dolor sit amet, consectetur adipiscing elitsed do eiusmod.</div>
+            <div className='flex justify-between items-center'>
+              <div>
+                <dt className='sr-only'>Users</dt>
+                <dd className='flex justify-start -space-x-1.5'>
+                  <a href='#' className='inline-block -m-1'>
+                    <img className='w-7 h-7 rounded-full ring-2 ring-[#f1faee]' src='https://randomuser.me/api/portraits/women/46.jpg' alt='avatar' />
+                  </a>
+                  <a href='#' className='inline-block -m-1'>
+                    <img className='w-7 h-7 rounded-full ring-2 ring-[#f1faee]' src='https://randomuser.me/api/portraits/men/45.jpg' alt='avatar' />
+                  </a>
+                  <a href='#' className='inline-block -m-1'>
+                    <img className='w-7 h-7 rounded-full ring-2 ring-[#f1faee]' src='https://randomuser.me/api/portraits/women/47.jpg' alt='avatar' />
+                  </a>
+                  <span className='inline-block -m-1 rounded-full ring-2 ring-[#f1faee]'>
+                    <svg width='28' height='28' viewBox='0 0 31 31' fill='none' xmlns='http://www.w3.org/2000/svg' className='text-[#a8dadc]'>
+                      <path d='M31 15.5C31 24.0604 24.0604 31 15.5 31C6.93959 31 0 24.0604 0 15.5C0 6.93959 6.93959 0 15.5 0C24.0604 0 31 6.93959 31 15.5ZM8.20879 15.5C8.20879 19.5268 11.4732 22.7912 15.5 22.7912C19.5268 22.7912 22.7912 19.5268 22.7912 15.5C22.7912 11.4732 19.5268 8.20879 15.5 8.20879C11.4732 8.20879 8.20879 11.4732 8.20879 15.5Z' fill='currentColor' />
+                      <path d='M31 15.5C31 18.049 30.3714 20.5586 29.1698 22.8066C27.9682 25.0547 26.2307 26.9716 24.1113 28.3878C21.9919 29.8039 19.556 30.6755 17.0193 30.9254C14.4826 31.1752 11.9234 30.7956 9.56841 29.8201C7.21345 28.8447 5.1354 27.3035 3.51834 25.3331C1.90128 23.3627 0.795112 21.0239 0.297828 18.5239C-0.199455 16.0239 -0.0725081 13.4398 0.667425 11.0006C1.40736 8.56136 2.73744 6.34225 4.53984 4.53985L10.2876 10.2876C9.43046 11.1448 8.79791 12.2002 8.44602 13.3602C8.09413 14.5202 8.03376 15.7491 8.27025 16.9381C8.50675 18.127 9.03281 19.2393 9.80184 20.1764C10.5709 21.1134 11.5591 21.8464 12.6791 22.3103C13.799 22.7742 15.0161 22.9547 16.2225 22.8359C17.4289 22.7171 18.5874 22.3026 19.5953 21.6291C20.6033 20.9556 21.4295 20.0439 22.001 18.9748C22.5724 17.9058 22.8714 16.7122 22.8714 15.5H31Z' fill='#e63946' />
+                    </svg>
+                  </span>
+                </dd>
+              </div>
+              <button className='flex items-center justify-center text-xs font-medium rounded-full px-5 py-2 space-x-1 bg-[#1d3557] text-[#f1faee] hover:bg-black hover:text-white'>
+                <span>Submit</span>
+                <svg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+                  <path d='M5 12h13M12 5l7 7-7 7' />
+                </svg>
+              </button>
             </div>
           </div>
         </div>
