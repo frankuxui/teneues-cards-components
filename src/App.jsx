@@ -39,7 +39,7 @@ function App () {
           <a href='https://www.figma.com/@frankuxui' className='flex flex-none items-center justify-center rounded-full w-12 h-12 hover:bg-slate-300 transition-all dark:hover:bg-slate-700'>
             <svg width='28' height='28' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
               <path d='M15.332 8.668a3.333 3.333 0 0 0 0-6.663H8.668a3.333 3.333 0 0 0 0 6.663 3.333 3.333 0 0 0 0 6.665 3.333 3.333 0 0 0 0 6.664A3.334 3.334 0 0 0 12 18.664V8.668h3.332z' fill='currentColor' />
-              <circle cx='15.332' cy='12' r='3.332' />
+              <circle cx='15.332' cy='12' r='3.332' fill='currentColor' />
             </svg>
           </a>
           <a href='https://dribbble.com/frankuxui' className='flex flex-none items-center justify-center rounded-full w-12 h-12 hover:bg-slate-300 transition-all dark:hover:bg-slate-700'>
@@ -425,7 +425,7 @@ function App () {
         </div>
 
         {/** Card 9 */}
-        <div className='break-inside overflow-hidden rounded-xl mb-4 text-sm bg-[#fff9d9] text-black border-2 border-black dark:bg-[#1e1e1e] dark:border-[black]'>
+        <div className='break-inside overflow-hidden rounded-xl mb-4 text-sm bg-[#fff9d9] text-black border-2 border-black dark:border-[black]'>
           <div className='flex items-start flex-row justify-between space-x-4  p-6'>
             <svg xmlns='http://www.w3.org/2000/svg' dataName='Layer 1' width='30' height='30' viewBox='0 0 128 128' className='mr-4'>
               <rect width='128' height='128' fill='#e84c88' rx='24' ry='24' />
@@ -441,6 +441,25 @@ function App () {
             <span className='absolute top-0 left-6 -mt-3 text-xs rounded-md px-2 py-1 font-medium bg-[#fcb875] text-black'>Other experiences</span>
             <svg xmlns='http://www.w3.org/2000/svg' width='38' height='38' className='mr-4' viewBox='0 0 24 24'><path d='M5.4 21.6c-.2 0-.4 0-.5-.1l-1.5-.9c-.3-.1-.4-.4-.5-.7-.1-.3 0-.6.1-.8l7-12.2c.3-.5 1-.7 1.5-.4l1.5.9c.5.3.7 1 .4 1.5L6.3 21c-.2.4-.5.6-.9.6zm5-14.5.4.2-7 12.2v.1l1.5.9h.1l7-12.2v-.1l-1.5-.9-.5-.2zM21.7 15.7h-2.8c-.3 0-.5-.2-.5-.5s.2-.5.5-.5h2.7c.1-.1.1-.3.1-.3v-2.7h-4.9c-.3 0-.5-.2-.5-.5s.2-.5.5-.5h4.9c.6 0 1 .5 1 1v2.7c.1.5-.3 1.3-1 1.3z' /><path d='M13.8 11.7h-2.3c-.3 0-.5-.2-.5-.5s.2-.5.5-.5h2.3c.3 0 .5.2.5.5s-.2.5-.5.5zM15.8 15.7H9.3c-.3 0-.5-.2-.5-.5s.2-.5.5-.5h6.5c.3 0 .5.2.5.5s-.2.5-.5.5zM5.6 15.7H2.3c-.7 0-1-.9-1-1.3v-2.7c0-.6.5-1 1-1h5.4c.3 0 .5.2.5.5s-.2.5-.5.5H2.3v2.7c0 .1.1.3.1.3h3.2c.3 0 .5.2.5.5s-.2.5-.5.5zM2.9 23.5c-.2 0-.4-.1-.5-.2-.1-.1-.2-.3-.2-.7l.3-2.3c.1-.6.7-1 1.3-.7l1.5.9c.3.2.5.4.5.7 0 .3-.1.6-.4.7l-2 1.3c-.2.2-.3.3-.5.3zm.5-2.9-.2 1.6 1.3-.9-1.1-.7z' /><path d='M17.7 17.8c-.2 0-.5-.1-.8-.2-.2-.1-.8-.4-4.3-8.6-.1-.3 0-.5.3-.7.3-.1.5 0 .7.3 1.9 4.4 3.5 7.8 3.9 8.2.3.1.3.1.6 0l.1-.1c.2-.1.5-.3.5-.5V16s0-.1-.1-.1c-.1-.1-.2-.4-.4-.8l-.6-1.1-.1-.1-.1-.1c0-.1-.1-.1-.1-.2L17 13s0-.1-.1-.1c-1.5-2.8-2.6-4.7-3.2-5.7-.4-.7-.9-1.5-1.4-2.3-.5-.9-1.2-2-1.7-2.7.4 1.3 1.4 3.5 1.9 4.6l.2.5c.1.3 0 .5-.3.7-.3.1-.5 0-.7-.3l-.2-.5C9.5 2.7 9 1.1 9.9.6c.8-.4 1.4.7 3.2 3.8.5.8.9 1.6 1.3 2.2.7 1 1.8 3 3.2 5.8l.5.9-.1.3.4-.2.6 1.1c.2.4.4.7.4.8.2.4.2.7.1 1.1-.2.5-.7.9-1.1 1.1h-.1c-.1.2-.3.3-.6.3z' /><path d='M19.2 20.3c-.4 0-.8-.2-1-.5l-.9-1.4c-.2-.3-.2-.6-.1-.9.1-.3.3-.5.5-.7l.9-.4c.5-.3 1.2 0 1.5.5l.7 1.4c.3.5.1 1.2-.4 1.6l-.6.4c-.2-.1-.4 0-.6 0zm-1-2.5.9 1.4c.1.1.1.1.2.1l.6-.4c.1 0 .1-.2.1-.2l-.7-1.4c0-.1-.1-.1-.1-.1l-.9.5-.4.4.3-.3z' /><path d='M21.8 23.3c-.2 0-.4-.1-.5-.3-.1-.1-.4-.2-.6-.3-.5-.2-1.2-.5-1.6-1.1-.6-.8-.5-1.6.2-2.2l.1-.1c.9-.5 1.7-.5 2.2.1.9 1 .7 3.3.7 3.5 0 .2-.2.4-.5.4zM19.9 20c-.2.2-.4.4 0 .9.3.4.7.6 1.2.8.1 0 .2.1.2.1 0-.7-.1-1.5-.4-1.8-.3-.2-.6-.2-1 0z' /></svg>
             <h2 className='text-lg font-bold'>Graphic design specialist</h2>
+          </div>
+        </div>
+
+        {/** card 10 */}
+        <div className='break-inside rounded-xl mb-4 text-sm p-6 bg-[#d3bfff] text-black'>
+          <div className='flex flex-col space-y-2'>
+            <h1 className='uppercase font-medium text-xs'>favorite airline</h1>
+            <h2 className='text-xl font-extrabold'>Your most recent destination</h2>
+          </div>
+          <div className='flex justify-between items-center mt-4'>
+            <div className=''>
+              <h3 className='font-bold text-base'>Holland, Amsterdam</h3>
+              <p>November, 22</p>
+            </div>
+            <span className='flex items-center justify-center w-14 h-14 rounded-full bg-[yellow]'>
+              <svg width='32' height='32' viewBox='0 0 24 24'>
+                <path fill='currentColor' d='M20.56 3.91C21.15 4.5 21.15 5.45 20.56 6.03L16.67 9.92L18.79 19.11L17.38 20.53L13.5 13.1L9.6 17L9.96 19.47L8.89 20.53L7.13 17.35L3.94 15.58L5 14.5L7.5 14.87L11.37 11L3.94 7.09L5.36 5.68L14.55 7.8L18.44 3.91C19 3.33 20 3.33 20.56 3.91Z' />
+              </svg>
+            </span>
           </div>
         </div>
 
