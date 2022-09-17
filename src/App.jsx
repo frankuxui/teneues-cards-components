@@ -516,6 +516,21 @@ function App () {
           </button>
         </div>
 
+        {/** card 12 */}
+        <div className='break-inside rounded-xl mb-4 text-sm p-6 group bg-[#00ffff] text-black'>
+          <div className='flex items-start justify-between'>
+            <div className='flex flex-col space-y-1'>
+              <h1 className='uppercase font-medium text-xs'>favorite airline</h1>
+              <h2 className='text-xl font-extrabold'>Manage your time</h2>
+            </div>
+            <button class='flex items-center justify-center text-black rounded-full w-8 h-8 transition-all group-hover:bg-black group-hover:text-white'>
+              <svg width='20' height='20' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M20.71,7.04C21.1,6.65 21.1,6 20.71,5.63L18.37,3.29C18,2.9 17.35,2.9 16.96,3.29L15.12,5.12L18.87,8.87M3,17.25V21H6.75L17.81,9.93L14.06,6.18L3,17.25Z' fill='currentColor' />
+              </svg>
+            </button>
+          </div>
+        </div>
+
       </div>
     </div>
   )
