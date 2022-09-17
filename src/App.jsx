@@ -176,7 +176,7 @@ function App () {
         </div>
 
         {/** Card 3 */}
-        <div className='flex items-start flex-row justify-between break-inside rounded-xl mb-4 p-6 text-sm bg-white text-black border-2 border-black dark:bg-[#1e1e1e] dark:text-white dark:border-[#b9b9b9]'>
+        <div className='flex items-start flex-row justify-between break-inside rounded-xl mb-4 p-6 text-sm bg-[#efefef] text-black border-2 border-black dark:bg-[#1e1e1e] dark:text-white dark:border-[#b9b9b9]'>
           <span className='mr-6'>
             <svg version='1.1' id='Layer_1' xmlns='http://www.w3.org/2000/svg' x='0px' y='0px' viewBox='0 0 512 512' width='26' height='26'>
               <path
@@ -211,7 +211,7 @@ function App () {
         </div>
 
         {/** Card 4 */}
-        <div className='break-inside rounded-xl space-y-4 mb-4 text-sm p-6 bg-white dark:bg-[#1e1e1e] dark:text-white'>
+        <div className='break-inside rounded-xl space-y-4 mb-4 text-sm p-6 bg-[#efefef] dark:bg-[#1e1e1e] dark:text-white'>
           <div className='flex items-start justify-between'>
             <div className='flex flex-col'>
               <h1 className='text-lg font-bold'>About Meeting</h1>
@@ -230,19 +230,19 @@ function App () {
               <dd className='flex justify-start -space-x-1.5'>
                 <a href='#' className='inline-block -m-1'>
                   <img
-                    className='w-9 h-9 rounded-full bg-slate-100 ring-2 ring-white dark:ring-[#1e1e1e]'
+                    className='w-9 h-9 rounded-full bg-slate-100 ring-2 ring-[#efefef] dark:ring-[#1e1e1e]'
                     src='https://randomuser.me/api/portraits/women/46.jpg'
                     alt='avatar'
                   />
                 </a>
                 <a href='#' className='inline-block -m-1'>
                   <img
-                    className='w-9 h-9 rounded-full bg-slate-100 ring-2 ring-white dark:ring-[#1e1e1e]'
+                    className='w-9 h-9 rounded-full bg-slate-100 ring-2 ring-[#efefef] dark:ring-[#1e1e1e]'
                     src='https://randomuser.me/api/portraits/men/45.jpg'
                     alt='avatar'
                   />
                 </a>
-                <div className='inline-flex items-center justify-center -m-1 font-medium rounded-full w-10 h-10 ring-2 ring-white dark:ring-[#1e1e1e] bg-[#eeff00] dark:text-black'>
+                <div className='inline-flex items-center justify-center -m-1 font-medium rounded-full w-10 h-10 ring-2 ring-[#efefef] dark:ring-[#1e1e1e] bg-[#eeff00] dark:text-black'>
                   +5
                 </div>
               </dd>
@@ -373,7 +373,7 @@ function App () {
         </div>
 
         {/** card 8 */}
-        <div className='break-inside relative overflow-hidden flex flex-col justify-between rounded-xl mb-4 p-4 text-sm text-black bg-white dark:bg-[#1e1e1e] dark:text-[#dbdbdb]'>
+        <div className='break-inside relative overflow-hidden flex flex-col justify-between rounded-xl mb-4 p-4 text-sm text-black bg-[#efefef] dark:bg-[#1e1e1e] dark:text-[#dbdbdb]'>
           <div className='relative flex items-center justify-between p-4 rounded-2xl shadow-2xl bg-white dark:bg-[#383838]'>
             <div className='flex flex-1 flex-col items-center'>
               <span className='text-lg font-bold'>99 K</span>
@@ -531,6 +531,30 @@ function App () {
           </div>
         </div>
 
+        {/** card 13 */}
+        <div className='flex flex-row justify-between items-center break-inside bg-[#e9edc9] rounded-xl gap-2 p-2 mb-4 text-sm'>
+          <div className='flex flex-1 items-start flex-col p-4 space-y-2 rounded-lg bg-[#fffbe4] text-black'>
+            <h1 className='font-medium'>Current trends</h1>
+            <h2 className='font-bold text-3xl'>3242</h2>
+            <div className='flex items-center  space-x-2 py-1 px-2 font-medium rounded-md text-[#000000] bg-[#e9edc9]'>
+              <svg width='20' height='20' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M11,4H13V16L18.5,10.5L19.92,11.92L12,19.84L4.08,11.92L5.5,10.5L11,16V4Z' fill='currentColor' />
+              </svg>
+              <span>43%</span>
+            </div>
+          </div>
+          <div className='flex flex-1 items-start flex-col p-4 rounded-lg space-y-2 bg-transparent text-black'>
+            <h1 className='font-medium'>Customers</h1>
+            <h2 className='font-bold text-3xl'>1045K</h2>
+            <div className='flex items-center  space-x-2 py-1 px-2 font-medium rounded-md text-[#000000] bg-[#fffbe4]'>
+              <svg width='20' height='20' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'>
+                <path d='M13,20H11V8L5.5,13.5L4.08,12.08L12,4.16L19.92,12.08L18.5,13.5L13,8V20Z' fill='currentColor' />
+              </svg>
+              <span>43%</span>
+            </div>
+          </div>
+        </div>
+
       </div>
     </div>
   )
@@ -540,5 +564,5 @@ export default App
 
 //
 // {/** card */}
-// <div className='break-inside rounded-xl mb-4 text-sm p-6 bg-white dark:bg-[#1e1e1e] dark:text-white'>card</div>
+// <div className='break-inside rounded-xl mb-4 text-sm p-6 bg-[#efefef] dark:bg-[#1e1e1e] dark:text-white'>card</div>
 //
