@@ -346,17 +346,9 @@ function App () {
 
         {/** card 7 */}
         <div className='break-inside flex flex-col justify-between rounded-xl mb-4 text-sm bg-[#ffc5a3] text-black'>
-          <div className='flex justify-between flex-row  items-center p-4 text-sm'>
-            <h2 className='text-base font-bold'>Header</h2>
-            <button className='flex items-center justify-center rounded-full p-1 transition-all hover:bg-slate-200 dark:hover:bg-slate-700 '>
-              <svg width='26' height='26' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'>
-                <path d='M12,16A2,2 0 0,1 14,18A2,2 0 0,1 12,20A2,2 0 0,1 10,18A2,2 0 0,1 12,16M12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12A2,2 0 0,1 12,10M12,4A2,2 0 0,1 14,6A2,2 0 0,1 12,8A2,2 0 0,1 10,6A2,2 0 0,1 12,4Z' fill='currentColor' />
-              </svg>
-            </button>
-          </div>
           <div className='p-4 space-y-4'>
             <div className='flex items-center space-x-4'>
-              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/46.jpg' alt='avatar' />
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/57.jpg' alt='avatar' />
               <div className='flex-auto'>
                 <a href='#' className='text-base font-bold block'>Ralph Edwards</a>
                 <span>Dog Trainer</span>
@@ -372,11 +364,64 @@ function App () {
               <span className='px-3 py-1 rounded-full text-xs font-medium bg-black text-white'>FASHION</span>
               <span className='px-3 py-1 rounded-full text-xs font-medium bg-black text-white'>TRENDS</span>
             </div>
-            <button type='button' className='w-9 h-9 flex items-center justify-center rounded-full border-2 border-black dark:border-white'>
+            <button type='button' className='w-9 h-9 flex items-center justify-center rounded-full border-2 border-black'>
               <svg width='20' height='20' viewBox='0 0 24 24'>
                 <path fill='currentColor' d='M20.71,7.04C20.37,7.38 20.04,7.71 20.03,8.04C20,8.36 20.34,8.69 20.66,9C21.14,9.5 21.61,9.95 21.59,10.44C21.57,10.93 21.06,11.44 20.55,11.94L16.42,16.08L15,14.66L19.25,10.42L18.29,9.46L16.87,10.87L13.12,7.12L16.96,3.29C17.35,2.9 18,2.9 18.37,3.29L20.71,5.63C21.1,6 21.1,6.65 20.71,7.04M3,17.25L12.56,7.68L16.31,11.43L6.75,21H3V17.25Z' />
               </svg>
             </button>
+          </div>
+        </div>
+
+        {/** card 8 */}
+        <div className='break-inside relative overflow-hidden flex flex-col justify-between rounded-xl mb-4 p-4 text-sm text-black bg-white dark:bg-[#1e1e1e] dark:text-[#dbdbdb]'>
+          <div className='relative flex items-center justify-between p-4 rounded-2xl shadow-2xl bg-white dark:bg-[#383838]'>
+            <div className='flex flex-1 flex-col items-center'>
+              <span className='text-lg font-bold'>99 K</span>
+              <span className='text-[#000000a0] dark:text-[#ffffffab]'>Followers</span>
+            </div>
+            <div className='flex flex-1 flex-col items-center'>
+              <span className='text-lg font-bold'>154</span>
+              <span className='text-[#000000a0] dark:text-[#ffffffab]'>Books</span>
+            </div>
+            <div className='flex flex-1 flex-col items-center'>
+              <span className='text-lg font-bold'>103</span>
+              <span className='text-[#000000a0] dark:text-[#ffffffab]'>Authors</span>
+            </div>
+          </div>
+          <div className='flex justify-between items-start mt-6'>
+            <div className='flex flex-col space-y-2'>
+              <span className='text-xs uppercase font-medium text-[#0000009e] dark:text-[#7c7c7c]'>Sheduling options</span>
+              <h1 className='font-bold text-xl dark:text-white'>Web Design templates Selection</h1>
+            </div>
+            <label for='toogleA' className='flex items-center cursor-pointer'>
+              <div className='relative'>
+                <input id='toogleA' type='checkbox' className='sr-only' />
+                <div className='w-8 h-3 bg-gray-400 rounded-full shadow-inner' />
+                <div className='dot absolute w-5 h-5 bg-white rounded-full shadow -left-1 -top-1 transition' />
+              </div>
+            </label>
+          </div>
+          <div className='relative flex items-center justify-between mt-6'>
+            <div className='flex items-center space-x-4'>
+              <img className='flex-none w-12 h-12 rounded-full object-cover' src='https://randomuser.me/api/portraits/men/50.jpg' alt='avatar' />
+              <div className='flex-auto'>
+                <a href='#' className='text-base font-bold block'>Anthony Flick</a>
+                <span>Web designer</span>
+              </div>
+            </div>
+            <button type='button' className='w-9 h-9 flex items-center justify-center '>
+              <svg width='20' height='20' viewBox='0 0 24 24'>
+                <path fill='currentColor' d='M20.71,7.04C20.37,7.38 20.04,7.71 20.03,8.04C20,8.36 20.34,8.69 20.66,9C21.14,9.5 21.61,9.95 21.59,10.44C21.57,10.93 21.06,11.44 20.55,11.94L16.42,16.08L15,14.66L19.25,10.42L18.29,9.46L16.87,10.87L13.12,7.12L16.96,3.29C17.35,2.9 18,2.9 18.37,3.29L20.71,5.63C21.1,6 21.1,6.65 20.71,7.04M3,17.25L12.56,7.68L16.31,11.43L6.75,21H3V17.25Z' />
+              </svg>
+            </button>
+          </div>
+          <div className='relative flex flex-row items-center justify-between mt-6'>
+            <div className='flex space-x-1'>
+              <span className='px-3 py-1 rounded-md text-xs font-medium bg-[#bea3f8] text-black'>html</span>
+              <span className='px-3 py-1 rounded-md text-xs font-medium bg-[#48e8cc] text-black'>css</span>
+              <span className='px-3 py-1 rounded-md text-xs font-medium bg-[#fbe115] text-black'>javascript</span>
+            </div>
+
           </div>
         </div>
 
