@@ -463,6 +463,59 @@ function App () {
           </div>
         </div>
 
+        {/** card 11 */}
+        <div className='break-inside rounded-xl mb-4 text-sm p-6 bg-[#ccccff] text-[#082330]'>
+          <div className='flex items-start justify-between'>
+            <h1 className='font-bold pb-2 text-xl text-black'>
+              Web Design templates Selection
+            </h1>
+            <svg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 24 24' fill='none' stroke='currentColor' strokeWidth='2' strokeLinecap='round' strokeLinejoin='round'>
+              <rect x='3' y='3' width='7' height='7' />
+              <rect x='14' y='3' width='7' height='7' />
+              <rect x='14' y='14' width='7' height='7' />
+              <rect x='3' y='14' width='7' height='7' />
+            </svg>
+          </div>
+          <div className='relative flex items-center justify-start py-3 border-t mt-4 border-black'>
+            <span className='absolute top-0 left-0 -mt-3 text-xs rounded-md px-2 py-1 font-medium bg-[#f0ff9c] text-black'>First step</span>
+            <span className='text-2xl font-bold mr-4'>€10.99</span>
+            <p className='flex-1'>Save your cost, save time and elevate the user ui experience</p>
+          </div>
+          <div className='relative flex items-center justify-start py-3 border-t border-b border-black'>
+            <span className='absolute top-0 left-0 -mt-3 text-xs rounded-md px-2 py-1 font-medium bg-[#a7ffff] text-black'>Second step</span>
+            <span className='text-2xl font-bold mr-4'>€75.99</span>
+            <p className='flex-1'>Buy businesses of other and make mortal success...</p>
+          </div>
+          <ul className='flex items-start flex-col space-y-2 mt-4'>
+            <li className='flex items-start space-x-2'>
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' width='18' height='18' className='flex-none'>
+                <path d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
+              </svg>
+              <span>lorem ipsun merfis actuan</span>
+            </li>
+            <li className='flex items-start space-x-2'>
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' width='18' height='18' className='flex-none'>
+                <path d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
+              </svg>
+              <span>Ut enim ad minima veniam</span>
+            </li>
+            <li className='flex items-start space-x-2'>
+              <svg xmlns='http://www.w3.org/2000/svg' fill='none' viewBox='0 0 24 24' strokeWidth={2} stroke='currentColor' width='18' height='18' className='flex-none'>
+                <path d='M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z' />
+              </svg>
+              <span>Quis autem vel eum</span>
+            </li>
+          </ul>
+          <button class='mt-4 flex items-center justify-center relative rounded-full w-full py-2 font-medium transition-all border-2 group border-black bg-transparent hover:bg-black hover:text-white '>
+            Get experience
+            <span className='absolute right-2 rounded-full p-1 bg-[#021c1e] text-white group-hover:bg-white group-hover:text-black'>
+              <svg width='20' height='20' viewBox='0 0 24 24'>
+                <path fill='currentColor' d='M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z' />
+              </svg>
+            </span>
+          </button>
+        </div>
+
       </div>
     </div>
   )
