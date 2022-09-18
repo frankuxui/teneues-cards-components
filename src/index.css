@@ -23,9 +23,3 @@ body {
   background-color: #0a0a0a; /* #121212; */
 }
 
-/* Toggle A */
-input:checked ~ .dot {
-  transform: translateX(100%);
-  background-color: #48bb78;
-}
-

@@ -393,13 +393,11 @@ function App () {
               <span className='text-xs uppercase font-medium text-[#0000009e] dark:text-[#7c7c7c]'>Sheduling options</span>
               <h1 className='font-bold text-xl dark:text-white'>Web Design templates Selection</h1>
             </div>
-            <label for='toogleA' className='flex items-center cursor-pointer'>
-              <div className='relative'>
-                <input id='toogleA' type='checkbox' className='sr-only' />
-                <div className='w-8 h-3 bg-gray-400 rounded-full shadow-inner' />
-                <div className='dot absolute w-5 h-5 bg-white rounded-full shadow -left-1 -top-1 transition' />
-              </div>
-            </label>
+            <button className='inline-flex items-center justify-center p-1 transition-all rounded-full hover:bg-white'>
+              <svg width='24' height='24' viewBox='0 0 24 24'>
+                <path fill='currentColor' d='M16,12A2,2 0 0,1 18,10A2,2 0 0,1 20,12A2,2 0 0,1 18,14A2,2 0 0,1 16,12M10,12A2,2 0 0,1 12,10A2,2 0 0,1 14,12A2,2 0 0,1 12,14A2,2 0 0,1 10,12M4,12A2,2 0 0,1 6,10A2,2 0 0,1 8,12A2,2 0 0,1 6,14A2,2 0 0,1 4,12Z' />
+              </svg>
+            </button>
           </div>
           <div className='relative flex items-center justify-between mt-6'>
             <div className='flex items-center space-x-4'>
@@ -417,9 +415,9 @@ function App () {
           </div>
           <div className='relative flex flex-row items-center justify-between mt-6'>
             <div className='flex space-x-1'>
-              <span className='px-3 py-1 rounded-md text-xs font-medium bg-[#bea3f8] text-black'>html</span>
-              <span className='px-3 py-1 rounded-md text-xs font-medium bg-[#48e8cc] text-black'>css</span>
-              <span className='px-3 py-1 rounded-md text-xs font-medium bg-[#fbe115] text-black'>javascript</span>
+              <span className='px-3 py-1 rounded-md text-xs font-medium bg-[#003049] text-white'>html</span>
+              <span className='px-3 py-1 rounded-md text-xs font-medium bg-[#d62828] text-white'>css</span>
+              <span className='px-3 py-1 rounded-md text-xs font-medium bg-[#f77f00] text-white'>javascript</span>
             </div>
           </div>
         </div>
@@ -464,7 +462,7 @@ function App () {
         </div>
 
         {/** card 11 */}
-        <div className='break-inside rounded-xl mb-4 text-sm p-6 bg-[#ccccff] text-[#082330]'>
+        <div className='break-inside rounded-xl mb-4 text-sm p-6 bg-[#dadaff] text-[#082330]'>
           <div className='flex items-start justify-between'>
             <h1 className='font-bold pb-2 text-xl text-black'>
               Web Design templates Selection
@@ -476,12 +474,12 @@ function App () {
               <rect x='3' y='14' width='7' height='7' />
             </svg>
           </div>
-          <div className='relative flex items-center justify-start py-3 border-t mt-4 border-black'>
+          <div className='relative flex items-center justify-start py-3 border-t mt-4 border-[#0000000e]'>
             <span className='absolute top-0 left-0 -mt-3 text-xs rounded-md px-2 py-1 font-medium bg-[#f0ff9c] text-black'>First step</span>
             <span className='text-2xl font-bold mr-4'>€10.99</span>
             <p className='flex-1'>Save your cost, save time and elevate the user ui experience</p>
           </div>
-          <div className='relative flex items-center justify-start py-3 border-t border-b border-black'>
+          <div className='relative flex items-center justify-start py-3 border-t border-b border-[#0000000e]'>
             <span className='absolute top-0 left-0 -mt-3 text-xs rounded-md px-2 py-1 font-medium bg-[#a7ffff] text-black'>Second step</span>
             <span className='text-2xl font-bold mr-4'>€75.99</span>
             <p className='flex-1'>Buy businesses of other and make mortal success...</p>
@@ -599,8 +597,8 @@ function App () {
         </div>
 
         {/** card 15 */}
-        <div className='break-inside relative overflow-hidden flex flex-col justify-between space-y-2 text-sm rounded-xl p-4 mb-4 bg-[#006d77] text-white'>
-          <span className='uppercase text-xs text-[#83c5be]'>upgrade team</span>
+        <div className='break-inside relative overflow-hidden flex flex-col justify-between space-y-2 text-sm rounded-xl p-4 mb-4 bg-[#83c5be] text-black'>
+          <span className='uppercase text-xs text-[#edf6f9]'>upgrade team</span>
           <div className='flex flex-row items-center space-x-3'>
             <svg width='58' height='56' viewBox='0 0 52 50' fill='none' xmlns='http://www.w3.org/2000/svg'>
               <path d='M32.6458 38.4379C33.9918 37.1198 33.2655 34.0922 31.0668 30.5948C31.8658 30.4707 32.6129 30.281 33.178 29.9905C35.2112 28.9466 36.584 27.044 37.6232 25.0759C38.7403 22.9647 39.49 20.644 40.9477 18.7215C41.1939 18.3966 41.44 18.1052 41.6853 17.831C44.8304 18.206 47.3412 18.8784 47.3412 18.8784L48.3006 16.4534C47.0896 16.0212 45.848 15.6791 44.586 15.4302C45.3591 14.9931 45.8635 14.8569 45.8635 14.8569L44.9543 12.4121C43.4966 13.025 42.3136 13.9293 41.323 15.0121C37.6206 14.806 33.8921 15.5397 30.9506 17.8086C28.7389 19.5155 27.2447 21.8819 25.839 24.2491C24.5935 23.0333 23.2671 21.9023 21.8688 20.8638C22.134 20.4302 22.4182 20.0405 22.7242 19.7397C24.5728 17.9293 27.0116 16.7716 28.6115 14.7C31.9742 10.35 29.5146 3.53103 26.7481 0C26.2524 0.475 25.4325 1.16724 24.8155 1.71379C27.7561 4.70948 29.8127 9.95431 27.5082 13.8733C26.2203 16.0638 23.8404 17.4379 22.1764 19.3198C21.8887 19.6466 21.6313 20.0603 21.3982 20.5172C17.0466 17.4129 13.053 16.1638 11.4704 17.7138C11.3133 17.8737 11.1838 18.0584 11.0874 18.2603L11.0813 18.2543L11.0388 18.3776C10.9799 18.5112 10.9261 18.65 10.8897 18.8017L0 50L31.774 38.95L31.7653 38.9414C32.1068 38.8319 32.4075 38.6707 32.6458 38.4379ZM6.32065 45.9759L3.66863 44.7465L5.45831 39.6172L13.6666 43.4207L6.32065 45.9759ZM21.0116 40.8664L7.24972 34.4879L9.0394 29.3595L19.3233 34.494C13.1847 30.5198 10.8291 24.2293 10.8291 24.2293L11.441 22.4767C12.5286 25.2138 14.9215 28.6224 18.2097 31.8397C21.5256 35.0862 25.0399 37.4379 27.8488 38.4888L21.0116 40.8664ZM26.2975 24.7112C27.7344 22.6621 29.2156 20.594 31.2748 19.1224C33.2352 17.7207 36.4176 17.4647 39.4345 17.6328C38.4153 19.4034 37.6622 21.3681 36.9861 23.2552C36.1689 25.5397 35.0734 27.9086 32.9847 29.3095C32.4214 29.6871 31.6318 29.9629 30.7886 30.1672C29.6298 28.4009 28.1097 26.5336 26.2975 24.7112Z' fill='white' />
@@ -616,6 +614,14 @@ function App () {
                 <path d='M5 12h13M12 5l7 7-7 7' />
               </svg>
             </button>
+          </div>
+        </div>
+
+        {/** card 16 */}
+        <div className='break-inside overflow-hidden rounded-xl mb-4 text-sm transition-all bg-[#f8edeb] text-[#000000] dark:saturate-0'>
+          <div className='relative'>
+            <span className='absolute bottom-6 left-6 text-xs uppercase font-bold rounded-md px-3 py-2 bg-[#ffd050] text-black dark:bg-white'>Experience</span>
+            <img src='https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2' alt='Imagen' className='w-full object-cover' />
           </div>
         </div>
 
